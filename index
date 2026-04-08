@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Shinde Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Vaibhav Shinde</h1>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header>
+
+<section class="home">
+    <img src="assets/photo.jpg" alt="Vaibhav Photo">
+    <h2>Hello, I'm Vaibhav 👋</h2>
+    <p>I am a B.Tech Computer Science Engineering student.</p>
+</section>
+
+<section>
+    <h2>About Me</h2>
+    <p><b>Education:</b> B.Tech CSE First Year</p>
+    <p><b>Interest:</b> Sports & Workout</p>
+    <p><b>Goal:</b> To become Police Inspector</p>
+    <p><b>Strength:</b> Sportsman</p>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <ul>
+        <li>🏆 Best Sportsman Award</li>
+        <li>🏅 Participated in Sports Week</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <p>AI4A Project (Add details)</p>
+    <p>Design Thinking Project (Add details)</p>
+    <p>ACE Project (Add details)</p>
+</section>
+
+<section>
+    <h2>Gallery</h2>
+    <img src="assets/photo.jpg" class="gallery-img">
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: shindevaibhavvittalrao99@gmail.com</p>
+    <p>Phone: 8605986645</p>
+</section>
+
+<section>
+    <h2>Extra Info</h2>
+    <p>Everyone should have good habits and live a happy and healthy life.</p>
+</section>
+
+<footer>
+    <p>© 2026 Vaibhav Shinde</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
