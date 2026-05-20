@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+struct Hotel {
+    int room;
+    char name[20];
+    int days;
+};
+
+int main() {
+    struct Hotel h;
+
+    printf("Enter Room Number: ");
+    scanf("%d", &h.room);
+
+    printf("Enter Customer Name: ");
+    scanf("%s", h.name);
+
+    printf("Enter Days Stayed: ");
+    scanf("%d", &h.days);
+
+    printf("\n--- Hotel Management ---\n");
+    printf("Room Number : %d\n", h.room);
+    printf("Customer Name : %s\n", h.name);
+    printf("Days Stayed : %d\n", h.days);
+    printf("Total Bill : %d\n", h.days * 1000);
+
+    return 0;
+}
